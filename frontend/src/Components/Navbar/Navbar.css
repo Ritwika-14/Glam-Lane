@@ -11,7 +11,7 @@
 
 .navbar-menu{
     display: flex;
-    gap: 20px;
+    gap: 35px;
     list-style: none;
     color: #602f5e;
     cursor: pointer;
@@ -26,7 +26,7 @@
 .navbar button{
     background: transparent;
     font-size: 14px;
-    color: blueviolet;
+    color: rgb(65, 42, 83);
     font-weight: 150px;
     padding: 10px 30px;
     border: 1px solid #602f5e;
@@ -36,7 +36,8 @@
 }
 
 .navbar button:hover{
-    background-color: rgb(151, 133, 169);
+    background-color: rgb(215, 198, 232);
+    color: black;
 }
 
 .navbar .active{
