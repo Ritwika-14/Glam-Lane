@@ -1,0 +1,68 @@
+.item{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 2px 1px #00000015;
+    animation: FadeIn;
+    transition: 0.3s;
+}
+
+.item-container{
+    position: relative;
+}
+
+.add-icon{
+    width: 43px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.counter{
+    position: absolute;
+    display: flex;
+    bottom: 15px;
+    right: 15px;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.counter img{
+    width: 30px;
+}
+
+.item-container-image{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.item-info{
+    padding: 10px;
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating p{
+    font-weight: 600;
+}
+
+.item-description{
+    font-size: 12px;
+}
+
+.item-price{
+    color: rgb(190, 82, 82);
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+}

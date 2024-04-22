@@ -10,9 +10,10 @@ const ProductDisplay = ({ category }) => {
         <div className='product_display'>
             <h2>Varieties of products for you.</h2>
             <div className="display-list">
-                {product_list && product_list.map((item) => (
-                    <Item key={item._id} id={item._id} name={item.name} description={item.description} price={item.price} image={item.image} />
-                ))}
+                {product_list.map((item,index) => {
+                    if(category==="All" || category===item.category){
+                       return <Item key={index} id={item._id} name={item.name} description={item.description} price={item.price} image={item.image} />
+                }})}
             </div>
         </div>
     );
