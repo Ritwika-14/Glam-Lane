@@ -7,7 +7,7 @@ const StoreContextProvider = (props) => {
 
     const [cartItems,setcartItems] = useState({});
     
-    const addtoCart = (itemId) => 
+    const addtoCart = (itemId) =>         //note koris
     {
         if(!cartItems[itemId])
         {

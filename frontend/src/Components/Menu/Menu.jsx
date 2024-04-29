@@ -4,7 +4,7 @@ import { category_list } from '../../assets/assets'
 
 const Menu = ({category , setCategory}) => {
   return (
-    <div className='explore-menu'>
+    <div className='explore-menu' id='menu'>
         <h2>Range of Products</h2>
         <h3>~Discover your perfect look with just a tap. Your personalized makeup journey starts here.</h3>
         <div className="explore-menu-list">

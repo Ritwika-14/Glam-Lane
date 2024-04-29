@@ -53,3 +53,28 @@
     background-color: rgb(173, 135, 211);
     color: beige;
 }
+
+@media (max-width:1050px){
+  .header{
+    height: 38vw;
+  }
+  .header-contents{
+    max-width: 45%;
+  }
+}
+
+@media (max-width:1050px){
+  .header-contents{
+    max-width: 55%;
+  }
+  .header-image{
+    margin: 0px auto;
+  margin-left: 46px;
+  }
+  .header-contents p{
+    display: none;
+  }
+  .header-contents button{
+   font-size: large;
+  }
+}
