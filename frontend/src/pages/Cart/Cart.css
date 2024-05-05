@@ -18,4 +18,9 @@
 .cart_item_image img{
     height: 65px;
     width: 75px;
+    border-radius: 20px;
+}
+
+.cart_item_image .cross{
+    cursor: pointer;
 }

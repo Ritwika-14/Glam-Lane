@@ -4,7 +4,7 @@ import { StoreContext } from '../../context/StoreContext';
 
 const Cart = () => {
 
-  const {cartItems,product_list,removeFromcart} = useContext(StoreContext);
+  const {cartItems,product_list,removeFromCart} = useContext(StoreContext);
   
   return (
     <div>
@@ -27,10 +27,10 @@ const Cart = () => {
               <div className="cart-items-title cart_item_image">
                 <img src={item.image} />
                 <p>{item.name}</p>
-                <p>{item.price}</p>
+                <p>${item.price}</p>
                 <p>{cartItems[item._id]}</p>
-                <p>{item.price*cartItems[item._id]}</p>
-                <p>X</p>
+                <p>${item.price*cartItems[item._id]}</p>
+                <p onClick={()=>removeFromCart(item._id)} className='cross'>X</p>
               </div>
               <hr />
               </div>
